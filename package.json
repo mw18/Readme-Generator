@@ -1,15 +1,25 @@
 {
-    "name": "static-site",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "inquirer": "^6.3.1"
-    }
-  }
-  
+  "name": "enter",
+  "version": "1.0.0",
+  "description": "Command-line application that dynamically generates a professional README.md file from a user's input.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Melissa",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mw18/readMegenerator-.git"
+  },
+  "keywords": [
+    "generator"
+  ],
+  "bugs": {
+    "url": "https://github.com/mw18/readMegenerator-/issues"
+  },
+  "homepage": "https://github.com/mw18/readMegenerator-#readme"
+}
