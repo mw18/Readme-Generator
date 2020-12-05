@@ -27,13 +27,13 @@ inquirer
       {
         type: 'list',
         name: 'license',
-        message: 'Select the license (MIT, Apache etc)',
+        message: 'Select the license below',
         choices: [ 'MIT','Other', 'GPLv2', 'Apache', 'GPLv3', 'BSD 3-clause', 'Unlicense']
       },
       {
         type: 'input',
         name: 'contributing',
-        message: 'Add guidelines for how other can copntribute to the project.',
+        message: 'Add guidelines for how other can contribute to the project.',
       },
       {
         type: 'input',
