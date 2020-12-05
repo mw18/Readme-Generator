@@ -25,9 +25,10 @@ inquirer
         message: 'Provide instructions and examples for use. Include screenshots if needed.',
       },
       {
-        type: 'input',
+        type: 'list',
         name: 'license',
-        message: 'A short snippet describing the license (MIT, Apache etc)',
+        message: 'Select the license (MIT, Apache etc)',
+        choices: [ 'MIT','Other', 'GPLv2', 'Apache', 'GPLv3', 'BSD 3-clause', 'Unlicense']
       },
       {
         type: 'input',
@@ -45,11 +46,21 @@ inquirer
         message: 'Describe and show how to run the tests with code examples.',
       },
       {
-        type: 'list',
-        name: 'questions',
-        message: 'If you have questions please contact me:',
-        choices: ['GitHub username:mw18', 'GitHub profile link: https://github.com/mw18', 'For other questions please email: melissaward@gmail.com', 'no questions at this time'],
+        type: 'input',
+        name: 'github',
+        message: 'GitHub username:',
       },
+      {
+        type: 'input',
+        name: 'giturl',
+        message: 'GitHub profile link',
+      },
+      {
+        type: 'input',
+        name: 'email',
+        message: 'email:',
+      },
+      
   ])
 
   .then((response) => {
@@ -57,22 +68,21 @@ inquirer
     
     const userInput = `
   
-  # Title:
-  ${response.title} 
+  # Title:  ${response.title}
   
   ## Description: 
   ${response.description} 
   
   ## Table of Contents: 
-  ${response.tableOfcontents}
-  [Installation](#installation)
-  [Usage](#usage)
-  [License](#license)
-  [Contributing](#contributing)
-  [Credits](#credits)
-  [Tests](#test)
-  [Github](#github)
-  [Email](#email)
+  [Installation](#installation)|
+  [Usage](#usage)|
+  [License](#license)|
+  [Contributing](#contributing)|
+  [Credits](#credits)|
+  [Tests](#tests)|
+  [Github](#github)|
+  [Giturl](#giturl)|
+  [Email](#email)|
 
   ## Installation: 
   ${response.installation} 
@@ -93,7 +103,9 @@ inquirer
   ${response.tests}
 
   ## Questions: 
-  ${response.questions}
+  - Github username: ${response.github}
+  - GitHub profile link: ${response.giturl}
+  - Email: ${response.email}
   
   `;
 
