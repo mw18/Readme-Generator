@@ -7,22 +7,22 @@ inquirer
     {
         type: 'input',
         name: 'title',
-        message: 'What is the title of the project/app?',
+        message: 'What is the title of the project?',
       },
       {
         type: 'input',
         name: 'description',
-        message: 'Please describe the project and explain why the project exists.',
+        message: 'Describe the project and explain why the project exists.',
       },
       {
         type: 'input',
         name: 'installation',
-        message: 'Please describe how to install the app by providing step by step series of examples and explanations about how to get a development running.',
+        message: 'Hod do you install the project?',
       },
       {
         type: 'input',
         name: 'usage',
-        message: 'Provide instructions and examples for use. Include screenshots if needed.',
+        message: 'Provide instructions for use.',
       },
       {
         type: 'list',
@@ -33,7 +33,7 @@ inquirer
       {
         type: 'input',
         name: 'contributing',
-        message: 'If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so.',
+        message: 'Add guidelines for how other can copntribute to the project.',
       },
       {
         type: 'input',
