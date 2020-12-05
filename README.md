@@ -1,9 +1,9 @@
 
   
-  # Title:  jjjjjjj
+  # Title:  Insert title of the project
   
   ## Description: 
-  jjjjjj 
+  Describe the project 
   
   ## Table of Contents: 
   [Installation](#installation)|
@@ -17,26 +17,26 @@
   [Email](#email)|
 
   ## Installation: 
-  jjjjj 
+  how do you install the project 
 
   ## Useage: 
-  jjjjjj
+  Useage instructions
 
   ## License: 
-  GPLv3
+  MIT
 
   ## Contributing: 
-  kkkkk
+  Can others contribute 
   
   ## Credits: 
-  kkk
+  Me, myself, and I
 
   ## Tests: 
-  kkk
+  Test examples
 
   ## Questions: 
-  - Github username: kkk
-  - GitHub profile link: kk
-  - Email: kk
+  - Github username: MW18
+  - GitHub profile link: git.url
+  - Email: email@google
   
   

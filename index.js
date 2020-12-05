@@ -17,7 +17,7 @@ inquirer
       {
         type: 'input',
         name: 'installation',
-        message: 'Hod do you install the project?',
+        message: 'How do you install the project?',
       },
       {
         type: 'input',
