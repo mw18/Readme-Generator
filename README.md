@@ -1,9 +1,9 @@
 
   
-  # Title:  Insert title of the project
+  # Title:  ReadMe Generator 
   
   ## Description: 
-  Describe the project 
+  Gernerate a professional readmen  
   
   ## Table of Contents: 
   [Installation](#installation)|
@@ -17,26 +17,26 @@
   [Email](#email)|
 
   ## Installation: 
-  how do you install the project 
+  copy repo 
 
   ## Useage: 
-  Useage instructions
+  copy repo, initiate project with "node index.js", follow prompts, preview readme
 
   ## License: 
   MIT
 
   ## Contributing: 
-  Can others contribute 
+  No other contributors allowed at his time 
   
   ## Credits: 
-  Me, myself, and I
+  Me myself, i 
 
   ## Tests: 
-  Test examples
+  no tests were created
 
   ## Questions: 
-  - Github username: MW18
-  - GitHub profile link: git.url
-  - Email: email@google
+  - Github username: mw18
+  - GitHub profile link: mw18
+  - Email: mward
   
   
