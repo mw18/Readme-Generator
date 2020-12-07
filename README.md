@@ -1,8 +1,7 @@
 # Title:  ReadMe Generator 
   
   ## Description: 
-  This command line application dynamically generates a professional Read.md file from a user's input using the NPM Inquirer.js  
-package.
+  This command line application dynamically generates a professional Read.md file from a user's input using the NPM Inquirer.js package.
 
 ## Table of Contents: 
   [Installation](#installation)|
@@ -21,9 +20,7 @@ package.
 
   ## Useage: 
   
-  The application will be invoked by using the following command:'node index.js'
-  
-
+  The application will be invoked by using the following command:'node index.js'. You can preview the generated ReadMe in the README2.md file. 
 
   ## License: 
   MIT
