@@ -1,9 +1,11 @@
-# Title:  ReadMe Generator 
+
+  
+  # Title:  Weather Dashboard
   
   ## Description: 
-  This command line application dynamically generates a professional Read.md file from a user's input using the NPM Inquirer.js package.
-
-## Table of Contents: 
+  This weather dashboard uses the OpenWeather API to retrieve weather data. This project runs in the browser and displays the current weather condition on the page.  
+  
+  ## Table of Contents: 
   [Installation](#installation)|
   [Usage](#usage)|
   [License](#license)|
@@ -15,28 +17,26 @@
   [Email](#email)|
 
   ## Installation: 
-  
-  Copy and download repo from my profile. 
+  Copw repo.  
 
   ## Useage: 
-  
-  The application will be invoked by using the following command:'node index.js'. You can preview the generated ReadMe in the README2.md file. 
+  Search city to find current weather data.
 
   ## License: 
-  MIT
+  Other
 
   ## Contributing: 
-  No other contributors allowed at this time. 
+  Guidelines have not been established.
   
   ## Credits: 
-  Melissa Ward
+  MW18
 
   ## Tests: 
-  No tests were ran or created.
-  
+  No tests have been created or ran.
+
   ## Questions: 
-  - Github username: mw18
-  - GitHub profile link: https://github.com/mw18  
+  - Github username: MW18
+  - GitHub profile link: github.com/mw18
   - Email: melissaward953@gmail.com
   
   
