@@ -1,9 +1,9 @@
 
   
-  # Title:  ReadMe Generator 
+  # Title:  Weather Dashboard 
   
   ## Description: 
-  Gernerate a professional readmen  
+  This project retreives weather data from the OpenWeather API.  
   
   ## Table of Contents: 
   [Installation](#installation)|
@@ -17,26 +17,26 @@
   [Email](#email)|
 
   ## Installation: 
-  copy repo 
+  Copy and install the repo.  
 
   ## Useage: 
-  copy repo, initiate project with "node index.js", follow prompts, preview readme
+  Search the weather by city. 
 
   ## License: 
-  MIT
+  Other
 
   ## Contributing: 
-  No other contributors allowed at his time 
+  No guidelines have been established. 
   
   ## Credits: 
-  Me myself, i 
+  MW18
 
   ## Tests: 
-  no tests were created
+  No tests exist yet. 
 
   ## Questions: 
-  - Github username: mw18
-  - GitHub profile link: mw18
-  - Email: mward
+  - Github username: MW18
+  - GitHub profile link: github.com/mw18
+  - Email: melissaward953@gmail.com
   
   

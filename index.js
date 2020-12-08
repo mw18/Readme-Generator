@@ -109,7 +109,7 @@ inquirer
   
   `;
 
-    fs.writeFile('README.md', userInput, (err) => {
+    fs.writeFile('README2.md', userInput, (err) => {
         if (err) throw err;
         console.log ('Your answers are saved')
 
