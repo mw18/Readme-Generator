@@ -1,7 +1,14 @@
 # README Generator undefined
   ![Badge](https://img.shields.io/badge/license-MIT-green)
   ## Description
-  This generator allows users to quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
+  This generator allows users to quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to  devote more time to working on the project.
+
+## Technologies used: 
+* node.js
+* npm
+* package.json
+* inquirer npm package
+  
   Deployed Application: [https://mw18.github.io/Readme-Generator/]
   ## Table of Contents
   * [Installation](#installation)
